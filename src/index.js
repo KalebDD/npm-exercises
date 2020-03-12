@@ -1,6 +1,10 @@
 "use strict";
 const _ = require('lodash');
 const $ = require('jquery');
+const niceMessage = require('./say-hello.js');
+
+
+console.log(niceMessage());
 
 const sayHello = () => {
     console.log("Hello!");
